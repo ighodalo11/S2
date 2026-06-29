@@ -11,22 +11,21 @@
         <nav class="nav-bar">
             <!--Add brand logo-->
             <div class="nav-logo">
-                <a href="index.html"><p>S2 logo</p></a>
+                <a href="index.html"><img src="img/S2-logo-black.png" alt="" width="150px"></a>
             </div>
             <div class="nav">
                 <ul class="nav-items">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="gallery.html">GALLERY</a></li>
                     <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="pricing.html">PRICING</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li ><a class="btn btn-primary-outline" href="contact.html">BOOK NOW</a></li>
                 </ul>
             </div>
         </nav>
 
         <section class="hero-section">
-            <h1>CONTACT US</h1>
-            <P class="small-text">Book session / Contact us</P> 
+            <h1 class="hero-heading">CONTACT US</h1>
+            <P class="small-text highlight-text">Book session / Contact us</P> 
         </section>
     </header>
 
@@ -35,29 +34,189 @@
         <main>
             <!-- CONTACT SECTION-->
             <section id="contact.html">
-                <div class="contact-section">
-                    <h3>FORM</h3>
+
+                    <div class="contact-container">
+                        <p class="small-title">Contact Us</p>
+                        <h4>Get In Touch</h4>
+
+                        <form>
+                            <div class="form-group">
+                                <label>Name :</label>
+                                <input type="text" placeholder="Your Name..." required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Email :</label>
+                                <input type="email" placeholder="example@gmail.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Phone Number :</label>
+                                <input type="tel" placeholder="+123 456 7890" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Subject :</label>
+                                <input type="text" placeholder="Title..." required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Message :</label>
+                                <textarea placeholder="Type Here..."></textarea>
+                            </div>
+
+                            <button type="submit" class="send-btn">Send Now</button>
+                        </form>
+                    </div>
                 </div>
+
             </section>
 
 
             <!--TRIGERING STATEMENT SECTION-->
-            <section>
-                <div class="statement-section">
-                    <p class="small-text">HIRE US NOW</p>
-                    <h2 class="statement-heading">We Are Always Ready To <br> Take A Perfect Shot</h2>
-                    <a class="statement-button" href="#contact.html">Get Started</a>
-                </div>
-            </section>
+            <div class="container">
+                <section>
+                    <div class="statement-section">
+                        <p class="small-text highlight-text">HIRE US NOW</p>
+                        <h2 class="statement-heading">We Are Always Ready To <br> Take A Perfect Shot</h2>
+                        <a class="statement-button btn btn-primary-outline" href="#contact.html">GET STARTED</a>
+                    </div>
+                </section>
 
-            <section class="pricing-section">
-                <div class="pricing-investment">
-                    <p class="small-text">INVESTMENT</p>
-                    <h2>Simple, Transparent Pricing</h2>
-                    <p>Choose the package that fits your vision. Every package includes our signature quality</p>
-                </div>
-            </section>
+                <!-- PRICE LIST -->
+                <section class="pricing-section" >
+                    <div class="pricing-investment">
+                        <p class="small-text">INVESTMENT</p>
+                        <h2>PRICE <span class="highlight-text">LIST</span></h2>
+                        <p>Choose the package that fits your vision. Every package includes our signature quality</p>
+                    </div>
+
+                    <div class="price-list-flex-container">
+
+                        <div class="price-list-flex-description">
+                            <div>
+                                <img src="img/camera-outline.svg" alt="caemra icon" width="40px">
+                                <h5 class="price-list-text">PORTRAIT SESSION</h5>
+                                <P class="price-list-text">Perfect for individual, creatives, and professional headshots.</P>
+                            </div>
+
+                            <div>
+                                <h3><span class="small-text">$</span>150</h3>
+                            </div>
+
+                            <div>
+                                <p><span class="highlight-text">&check;</span> 1 Hour Session</p>
+                                <p><span class="highlight-text">&check;</span> 1 Outfit</p>
+                                <p><span class="highlight-text">&check;</span> 15 Edited High-Resolution Photos</p>
+                                <p><span class="highlight-text">&check;</span> Online Gallery</p>
+                                <p><span class="highlight-text">&check;</span> Photo Retouching</p>
+                            </div>
+
+                            <div>
+                                <a class="btn btn-secondary-outline" href="contact.html">BOOK NOW</a>
+                            </div>
+                        </div>
+
+                        <div class="price-list-flex-description-popular">
+                            <div>
+                                <img src="img/camera-outline.svg" alt="caemra icon" width="40px">
+                                <h5 class="price-list-text">BRAND SHOOT</h5>
+                                <P class="price-list-text">Ideal for brands, and product campaigns.</P>
+                            </div>
+
+                            <div>
+                                <h3><span class="small-text">$</span>350</h3>
+                            </div>
+
+                            <div>
+                                <p><span class="highlight-text">&check;</span> 2-3 Hour Session</p>
+                                <p><span class="highlight-text">&check;</span> 2 Outfits / Concepts</p>
+                                <p><span class="highlight-text">&check;</span> 30 Edited High-Resolution Photos</p>
+                                <p><span class="highlight-text">&check;</span> Online Gallery</p>
+                                <p><span class="highlight-text">&check;</span> Photo Retouching</p>
+                                <p><span class="highlight-text">&check;</span> Commercial Use</p>
+                            </div>
+
+                            <div>
+                                <a class="btn btn-secondary" href="contact.html">BOOK NOW</a>
+                            </div>
+                        </div>
+
+                        <div class="price-list-flex-description">
+                            <div>
+                                <img src="img/camera-outline.svg" alt="caemra icon" width="40px">
+                                <h5 class="price-list-text">EVENT COVERAGE</h5>
+                                <P class="price-list-text">Capturing your special moments with perfection</P>
+                            </div>
+
+                            <div>
+                                <h3><span class="small-text">$</span>500</h3>
+                            </div>
+
+                            <div>
+                                <p><span class="highlight-text">&check;</span> Up to 5 Hours Coverage</p>
+                                <p><span class="highlight-text">&check;</span> Hightlight Slideshow</p>
+                                <p><span class="highlight-text">&check;</span> All Edited High-Resolution Photos</p>
+                                <p><span class="highlight-text">&check;</span> Online Gallery</p>
+                                <p><span class="highlight-text">&check;</span> Photo Retouching</p>
+                                <p><span class="highlight-text">&check;</span> Print Release</p>
+                            </div>
+
+                            <div>
+                                <a class="btn btn-secondary-outline" href="contact.html">BOOK NOW</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
     </main>
     </div>
+    <footer>
+		<div class="footer-flex-container">
+			<div class="footer-contact">
+				<div>
+					<img class="footer-logo" src="img/white-logo-copy.png" alt="">
+				</div>
+
+				<div>
+					<p> Exceptional photography crafted to celerate the <br> people and moment that matters most.<br>
+						15 Admiralty way lekki phase 1 Lagos, Nigeria
+					</p>
+				</div>
+
+				<!-- social links -->
+				<div class="footer-social-link" >
+					<a href=""><img src="img/WA icon.jpg" alt="" width="40"></a>
+					<a href=""><img src="img/WA icon.jpg" alt="" width="40"></a>
+					<a href=""><img src="img/WA icon.jpg" alt="" width="40"></a>
+					<a href=""><img src="img/WA icon.jpg" alt="" width="40"></a>
+				</div>
+			</div>
+
+			<div class="footer-quick-link">
+				<h5>Quick links</h5>
+				<a href="index.html"><p>Home</p></a>
+				<a href="index.html"><p>Gallery</p></a>
+				<a href="index.html"><p>About</p></a>
+				<a href="index.html"><p>Book Now</p></a>
+			</div>
+
+			<div class="footer-service">
+				<h5>Services</h5>
+				<p>photography</p>
+				<p>Videography</p>
+				<p>YouTube Content</p>
+			</div>
+		</div>
+
+		<div class="footer-copyright">
+			<p class="small-text">&copy; 2026. ALL RIGHTS RESERVED</p>
+		</div>
+    </footer>
+	<a class="whatsapp-float" href="https://wa.me/234909038558" target="_blank">
+		<img class="float-img" src="img/WA icon.jpg" alt="whatsapp">
+	</a>
+    </footer>
 </body>
 </html>
